@@ -3,7 +3,7 @@ export default function Nav() {
     <>
       <div>
         <img src="./images/background.png" alt="background" />
-        <p>jhgkjhfgljg</p>
+        <p>Projects</p>
       </div>
     </>
   );
