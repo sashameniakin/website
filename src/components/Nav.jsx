@@ -64,16 +64,16 @@ export default function Nav() {
               </a>
             </div>
             <div className="flex text-pureWhite gap-6 text-nav">
-              <p className="hover:text-secondary hover:cursor-pointer hover:underline decoration-secondary decoration-4 underline-offset-[5px]">
+              <p className="hover:text-secondary hover:cursor-pointer hover:underline decoration-secondary decoration-2 underline-offset-[5px]">
                 HOME
               </p>
-              <p className="hover:text-secondary hover:cursor-pointer hover:underline decoration-secondary decoration-4 underline-offset-[5px]">
+              <p className="hover:text-secondary hover:cursor-pointer hover:underline decoration-secondary decoration-2 underline-offset-[5px]">
                 ABOUT
               </p>
-              <p className="hover:text-secondary hover:cursor-pointer hover:underline decoration-secondary decoration-4 underline-offset-[5px]">
+              <p className="hover:text-secondary hover:cursor-pointer hover:underline decoration-secondary decoration-2 underline-offset-[5px]">
                 PROJECTS
               </p>
-              <p className="hover:text-secondary hover:cursor-pointer hover:underline decoration-secondary decoration-4 underline-offset-[5px]">
+              <p className="hover:text-secondary hover:cursor-pointer hover:underline decoration-secondary decoration-2 underline-offset-[5px]">
                 CONTACT
               </p>
             </div>
@@ -96,7 +96,7 @@ export default function Nav() {
                   />
                 </span>
               </p>
-              <p className="text-h3 hover:text-secondary hover:cursor-pointer hover:underline decoration-secondary decoration-4 underline-offset-[5px]">
+              <p className="text-h3 hover:text-secondary hover:cursor-pointer underline decoration-secondary decoration-2 underline-offset-[5px]">
                 <a href="#contact">CONTACT ME</a>
               </p>
             </div>
@@ -104,8 +104,7 @@ export default function Nav() {
         </header>
         <div className="justify-self-center self-center w-[30px] h-[48px] border-solid border-2 rounded-[60px] animate-bounce border-pureWhite before:w-[7px] before:h-[7px] before:border-pureWhite before:border-2 before:rounded-[60px] before:absolute before:top-[10px] before:left-[10px] before:bg-pureWhite before:animate-bounce" />
       </section>
-      <div className="h-[500px]"></div>
-      <div className="h-[500px] bg-background"></div>
+      <img src="./images/projects/preview.jpg" alt="foto" />
     </>
   );
 }

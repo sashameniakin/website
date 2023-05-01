@@ -6,6 +6,7 @@ module.exports = {
       background: "hsl(0, 0%, 20%)",
       pureWhite: "hsl(0, 0%, 100%)",
       secondary: "hsl(180, 96%, 33%)",
+      black: "hsl(0, 0%, 0%)",
     },
     fontSize: {
       nav: [
