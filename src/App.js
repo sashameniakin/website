@@ -1,7 +1,15 @@
 import Nav from "./components/Nav";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 function App() {
-  return <Nav />;
+  return (
+    <>
+      <Nav />
+      <About />
+      <Projects />
+    </>
+  );
 }
 
 export default App;
