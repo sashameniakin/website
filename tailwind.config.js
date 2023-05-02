@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     colors: {
       background: "hsl(0, 0%, 20%)",
-      pureWhite: "hsl(0, 0%, 100%)",
+      whiteBackground: "hsl(0, 0%, 85%)",
+      pureWhite: "hsl(0, 0%, 90%)",
       secondary: "hsl(180, 96%, 33%)",
       black: "hsl(0, 0%, 0%)",
     },
@@ -49,8 +50,44 @@ module.exports = {
           letterSpacing: "2.43px",
         },
       ],
+      projects: [
+        "17px",
+        {
+          lineHeight: "28px",
+          fontWeight: "700",
+          letterSpacing: "1px",
+        },
+      ],
+      contact: [
+        "28px",
+        {
+          lineHeight: "18px",
+          fontWeight: "700",
+          letterSpacing: "2.43px",
+        },
+      ],
+      text: [
+        "12px",
+        {
+          lineHeight: "18px",
+          fontWeight: "500",
+          letterSpacing: "1.43px",
+        },
+      ],
+      footer: [
+        "12px",
+        {
+          lineHeight: "18px",
+          fontWeight: "300",
+          letterSpacing: "1px",
+        },
+      ],
     },
-    extend: {},
+    extend: {
+      content: {
+        arrow: 'url("assets/images/arrow.png")',
+      },
+    },
   },
   plugins: [],
 };
