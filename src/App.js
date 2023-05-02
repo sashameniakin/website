@@ -8,7 +8,6 @@ import { useInView } from "react-intersection-observer";
 function App() {
   const [section1Ref, section1InView] = useInView({ threshold: 0.1 });
   const [section2Ref, section2InView] = useInView({ threshold: 0.05 });
-  const [section3Ref, section3InView] = useInView({ threshold: 0.05 });
 
   return (
     <>
@@ -17,13 +16,9 @@ function App() {
         section2={section2Ref}
         section1InView={section1InView}
       />
-      <About
-        section1={section1Ref}
-        section1InView={section1InView}
-        section3InView={section3InView}
-      />
+      <About section1={section1Ref} />
 
-      <Projects section3={section3Ref} />
+      <Projects />
       <Contact />
       <Footer />
     </>

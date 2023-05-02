@@ -1,4 +1,5 @@
 import Typewriter from "typewriter-effect";
+import ScrollDownButton from "./UI/ScrollDownButton";
 
 export default function Nav({ section2InView, section2, section1InView }) {
   return (
@@ -144,9 +145,7 @@ export default function Nav({ section2InView, section2, section1InView }) {
             </div>
           </div>
         </header>
-        <a className="justify-self-center self-center" href="#about">
-          <div className=" w-[30px] h-[48px] border-solid border-2 rounded-[60px] animate-bounce border-pureWhite before:w-[7px] before:h-[7px] before:border-pureWhite before:border-2 before:rounded-[60px] before:absolute before:top-[10px] before:left-[10px] before:bg-pureWhite before:animate-bounce" />
-        </a>
+        <ScrollDownButton />
       </section>
     </>
   );

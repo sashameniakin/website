@@ -1,8 +1,30 @@
 import { useState } from "react";
+import emailjs from "emailjs-com";
 
 export default function Contact() {
   const [inputValue, setInputValue] = useState("");
   const [blur, setBlur] = useState(false);
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_k862voe",
+        "template_t90t26i",
+        e.target,
+        "k94NtOqejEnqZuhKh"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
 
   function handleBlur() {
     setBlur(true);
@@ -25,23 +47,33 @@ export default function Contact() {
           </p>
         </div>
         <div className="flex flex-col gap-5 w-1/2">
-          <form className="flex flex-col gap-3">
+          <form onSubmit={sendEmail} className="flex flex-col gap-3">
             <input
               className="bg-whiteBackground border-b-2 border-secondary resize-none outline-none"
               type="text"
+              name="name"
               placeholder="NAME"
+              required
+            />
+            <input
+              className="bg-whiteBackground border-b-2 border-secondary resize-none outline-none"
+              type="text"
+              placeholder="SUBJECT"
+              name="subject"
               required
             />
             <input
               className="bg-whiteBackground border-b-2 border-secondary resize-none outline-none"
               type="email"
               placeholder="EMAIL"
+              name="email"
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               onBlur={handleBlur}
               onFocus={handleChange}
               required
             />
+
             {inputValue &&
               !blur &&
               (!inputValue.includes("@") ||
@@ -55,6 +87,7 @@ export default function Contact() {
               className="bg-whiteBackground border-b-2 border-secondary resize-none outline-none"
               type="textarea"
               placeholder="MESSAGE"
+              name="message"
               required
             />
             <button
