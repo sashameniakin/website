@@ -2,7 +2,7 @@ import Project from "./Project";
 
 export default function Projects() {
   return (
-    <section id="projects" className="bg-background">
+    <section id="projects" className="bg-background ">
       <div className="w-[80%] mx-auto flex justify-between pt-16">
         <h1 className="text-pureWhite text-contact">PROJECTS</h1>
         <p className="text-h3 text-pureWhite hover:text-secondary hover:cursor-pointer underline decoration-secondary decoration-2 underline-offset-[5px]">

@@ -6,10 +6,18 @@ export default function Nav({ section2InView, section2, section1InView }) {
     <>
       <section
         ref={section2}
-        className="bg-[url('./assets/images/background.png')] bg-cover h-screen bg-no-repeat bg-center opacity-80 flex flex-col"
+        className="bg-[url('./assets/images/background.png')] z-20 relative bg-cover h-screen bg-no-repeat bg-center opacity-80 flex flex-col"
       >
         <header className="h-screen">
-          <nav className="flex justify-between p-8 fixed top-0 left-0 right-0">
+          <nav
+            className={`flex justify-between ${
+              section1InView && !section2InView
+                ? "bg-pureWhite transition delay-400 ease-in"
+                : !section1InView && !section2InView
+                ? "bg-black transition delay-400 ease-in"
+                : ""
+            }  p-8 fixed top-0 left-0 right-0`}
+          >
             <div className="flex gap-5">
               <a
                 href="https://github.com/sashameniakin"
@@ -91,7 +99,7 @@ export default function Nav({ section2InView, section2, section1InView }) {
             </div>
             <div
               className={`flex ${
-                !section1InView && !section2InView ? "flex-col" : "flex-row"
+                !section1InView && !section2InView ? "flex-row" : "flex-row"
               } gap-6 text-nav ${
                 section1InView && !section2InView
                   ? "text-background"
