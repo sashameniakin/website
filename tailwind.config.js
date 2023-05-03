@@ -83,6 +83,9 @@ module.exports = {
         },
       ],
     },
+    screens: {
+      desktop: "821px",
+    },
     extend: {
       content: {
         arrow: 'url("assets/images/arrow.png")',
