@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <footer className="bg-whiteBackground shadow-inner">
-      <section className="flex justify-between w-[90%] mx-auto py-5">
-        <p className="text-background text-footer">
+      <section className="flex flex-col-reverse items-center gap-3 desktop:flex-row desktop:justify-between w-[90%] mx-auto py-7 desktop:py-5">
+        <p className="text-background text-footer text-center">
           © 2023 Developed by Sasha Meniakin. All rights reserved.
         </p>
         <div className="flex gap-5">
