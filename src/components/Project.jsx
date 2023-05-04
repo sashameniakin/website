@@ -9,7 +9,6 @@ export default function Project({
   return (
     <section className="flex flex-col justify-start">
       <picture className="group relative flex justify-center">
-        {/*   <source media="(min-width:415px)" srcSet={src_large} /> */}
         <img src={src_large} alt="foto" />
         <div className="hidden absolute z-10 h-full items-center justify-center gap-5 group-hover:flex group-hover:flex-col">
           <a href={link} target="_blank" rel="noreferrer">

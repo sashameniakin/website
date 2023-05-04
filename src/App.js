@@ -4,7 +4,6 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useInView } from "react-intersection-observer";
-import Menu from "./components/UI/Menu";
 
 function App() {
   const [section1Ref, section1InView] = useInView({ threshold: 0.1 });

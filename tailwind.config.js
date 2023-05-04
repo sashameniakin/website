@@ -8,6 +8,7 @@ module.exports = {
       pureWhite: "hsl(0, 0%, 90%)",
       secondary: "hsl(180, 96%, 33%)",
       black: "hsl(0, 0%, 0%)",
+      red: "	hsl(2, 87%, 66%)",
     },
     fontSize: {
       nav: [

@@ -139,7 +139,7 @@ export default function Nav({ section2InView, section2, section1InView }) {
                     : "text-pureWhite"
                 }`}
               >
-                <a href="#home">
+                <a href="#">
                   <p className="hover:text-secondary hover:cursor-pointer hover:underline decoration-secondary decoration-2 underline-offset-[5px]">
                     HOME
                   </p>

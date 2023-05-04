@@ -63,7 +63,7 @@ export default function Contact() {
               required
             />
             <input
-              className="bg-whiteBackground border-b-2 border-secondary resize-none outline-none"
+              className="bg-whiteBackground border-b-2 border-secondary resize-none outline-none focus:invalid:border-red"
               type="email"
               placeholder="EMAIL"
               name="email"
