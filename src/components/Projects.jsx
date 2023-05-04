@@ -10,7 +10,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className=" mx-auto grid w-[80%] gap-[2%] grid-cols-2 pb-20 pt-10">
+      <div className=" mx-auto grid w-[80%] gap-[2%] grid-cols-1 desktop:grid-cols-2 pb-[140px] desktop:pb-20 pt-10">
         <Project
           src_large={"./images/projects/photosnap.jpg"}
           name="PHOTOSNAP MULTI-PAGE WEBSITE"
