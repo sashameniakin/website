@@ -8,6 +8,8 @@ export default function About({ section1 }) {
       </div>
       <div className="flex justify-center items-center h-full">
         <p className="text-h2 text-background">under construction</p>
+        <img src="./images/skills/react.svg" alt="react" />
+        <img src="./images/skills/html-5.svg" alt="html" />
       </div>
       <ScrollUpButton />
     </div>
