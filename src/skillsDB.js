@@ -2,7 +2,7 @@ export const skillsDB = [
   {
     link: "./images/skills/react.svg",
     alt: "react",
-    description: "REACT",
+    description: "React",
   },
   {
     link: "./images/skills/html-5.svg",
@@ -17,12 +17,12 @@ export const skillsDB = [
   {
     link: "./images/skills/redux.svg",
     alt: "redux",
-    description: "REDUX",
+    description: "Redux",
   },
   {
     link: "./images/skills/javascript.svg",
     alt: "javascript",
-    description: "JAVASCRIPT",
+    description: "Javascript",
   },
   {
     link: "./images/skills/git.svg",
