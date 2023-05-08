@@ -42,7 +42,7 @@ export default function Projects() {
         <Project
           src_large={"./images/projects/crypto.png"}
           name="CRYPTO APP"
-          techstack="REACT HTML5 CSS3 NextJS Styled Components RapidAPI CoinmarketcapAPI MongoDB ChartJS NodeJS"
+          techstack="REACT HTML5 CSS3 NextJS Styled Components RapidAPI CoinmarketcapAPI MongoDB ChartJS NodeJS NextAuth ethers web3"
           link="https://crypto10.vercel.app/"
           github_link="https://github.com/sashameniakin/CRYPTO-Web-App"
         />
