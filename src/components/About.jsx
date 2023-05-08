@@ -5,7 +5,9 @@ export default function About({ section1 }) {
   return (
     <div ref={section1} className="bg-whiteBackground" id="about">
       <div className="flex w-[80%] mx-auto pt-10">
-        <h1 className="text-contact text-background">ABOUT</h1>
+        <h1 className="text-contact text-background underline decoration-secondary decoration-[7px] underline-offset-[18px]">
+          ABOUT
+        </h1>
       </div>
       <div className="flex flex-col justify-center items-center">
         <p className="text-h2 text-background py-40">under construction</p>
