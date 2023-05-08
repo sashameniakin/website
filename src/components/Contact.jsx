@@ -37,10 +37,11 @@ export default function Contact() {
   return (
     <section className="bg-whiteBackground" id="contact">
       <div className="w-[80%] mx-auto flex flex-col desktop:flex-row gap-[20%] desktop:justify-between py-16">
-        <div className="flex flex-col gap-5 w-[80%] mx-auto pb-12 desktop:pb-0 items-center desktop:w-1/2">
+        <div className="flex flex-col gap-5 w-[80%] mx-auto pb-12 desktop:pb-0 items-left desktop:w-1/2">
           <h1 className="text-contact text-background underline decoration-secondary decoration-[7px] underline-offset-[18px] pb-5">
             CONTACT
           </h1>
+          <p className="text-h2 text-background opacity-60">Get in touch</p>
           <p className="text-background text-text text-center desktop:text-left">
             I would love to hear about your project and how I could help. Please
             fill in the form, and I'll get back to you as soon as possible.
