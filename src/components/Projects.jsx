@@ -14,35 +14,35 @@ export default function Projects() {
         <Project
           src_large={"./images/projects/photosnap.jpg"}
           name="PHOTOSNAP MULTI-PAGE WEBSITE"
-          techstack="REACT HTML5 CSS3 Tailwind CSS"
+          techstack="REACT Tailwind CSS"
           link="https://photosnap-website-multi-page.vercel.app/"
           github_link="https://github.com/sashameniakin/photosnap-website-multiPage"
         />
         <Project
           src_large={"./images/projects/easybank.jpg"}
           name="EASYBANK LANDING PAGE"
-          techstack="REACT HTML5 CSS3 Tailwind CSS"
+          techstack="REACT Tailwind CSS"
           link="https://easybank-landing-page-ten-psi.vercel.app/"
           github_link="https://github.com/sashameniakin/easybank-landing-page"
         />
         <Project
           src_large={"./images/projects/adam.jpg"}
           name="SINGLE PAGE DEV PORTFOLIO"
-          techstack="REACT HTML5 CSS3 Styled Components"
+          techstack="REACT Styled Components"
           link="https://portfolio-self-pi-88.vercel.app/"
           github_link="https://github.com/sashameniakin/portfolio-AdamKeyes-LandingPage"
         />
         <Project
           src_large={"./images/projects/calculator.jpg"}
           name="CALCULATOR APP"
-          techstack="REACT HTML5 CSS3 Tailwind CSS"
+          techstack="REACT Tailwind CSS"
           link="https://calculator-app-topaz-pi.vercel.app/"
           github_link="https://github.com/sashameniakin/calculator-app"
         />
         <Project
           src_large={"./images/projects/crypto.png"}
           name="CRYPTO APP"
-          techstack="REACT HTML5 CSS3 NextJS Styled Components RapidAPI CoinmarketcapAPI MongoDB ChartJS NextAuth ethers web3"
+          techstack="REACT NextJS Styled Components RapidAPI CoinmarketcapAPI MongoDB ChartJS NextAuth ethers web3"
           link="https://crypto10.vercel.app/"
           github_link="https://github.com/sashameniakin/CRYPTO-Web-App"
         />
