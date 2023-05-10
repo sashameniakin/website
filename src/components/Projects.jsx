@@ -35,7 +35,7 @@ export default function Projects() {
         <Project
           src_large={"./images/projects/calculator.jpg"}
           name="CALCULATOR APP"
-          techstack="REACT Tailwind CSS"
+          techstack="REACT Redux Tailwind CSS"
           link="https://calculator-app-topaz-pi.vercel.app/"
           github_link="https://github.com/sashameniakin/calculator-app"
         />
