@@ -74,4 +74,9 @@ export const skillsDB = [
     alt: "nodejs",
     description: "NodeJS",
   },
+  {
+    link: "./images/skills/jest.svg",
+    alt: "jest",
+    description: "Jest",
+  },
 ];
