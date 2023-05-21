@@ -1,8 +1,9 @@
 import Project from "./Project";
 
+//REACT NextJS Styled Components RapidAPI CoinmarketcapAPI MongoDB ChartJS NextAuth ethers web3
 export default function Projects() {
   return (
-    <section id="projects" className="bg-background ">
+    <section id="projects" className="bg-background">
       <div className="w-[80%] mx-auto flex justify-between pt-16">
         <h1 className="text-pureWhite text-contact ">PROJECTS</h1>
         <p className="text-h3 text-pureWhite hover:text-secondary hover:cursor-pointer underline decoration-secondary decoration-2 underline-offset-[5px]">
@@ -10,7 +11,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className=" mx-auto grid w-[80%] gap-[2%] grid-cols-1 desktop:grid-cols-2 pb-[140px] desktop:pb-[110px] pt-10">
+      <div className=" mx-auto grid w-[80%] gap-[2%] grid-cols-1 desktop:grid-cols-2 pb-[50%] desktop:pb-[110px] pt-10">
         <Project
           src_large={"./images/projects/photosnap.jpg"}
           name="PHOTOSNAP MULTI-PAGE WEBSITE"
@@ -42,9 +43,17 @@ export default function Projects() {
         <Project
           src_large={"./images/projects/crypto.png"}
           name="CRYPTO APP"
-          techstack="REACT NextJS Styled Components RapidAPI CoinmarketcapAPI MongoDB ChartJS NextAuth ethers web3"
+          techstack="REACT NextJS Styled Components API's MongoDB ChartJS NextAuth"
           link="https://crypto10.vercel.app/"
           github_link="https://github.com/sashameniakin/CRYPTO-Web-App"
+        />
+
+        <Project
+          src_large={"./images/projects/space.jpg"}
+          name="SPACE TOURISM MULTI-PAGE WEBSITE"
+          techstack="REACT SASS/SCSS"
+          link="https://space-tourism-six-ebon.vercel.app/"
+          github_link="https://github.com/sashameniakin/space-tourism"
         />
       </div>
     </section>

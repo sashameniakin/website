@@ -8,8 +8,8 @@ export default function Project({
 }) {
   return (
     <section className="flex flex-col justify-start">
-      <picture className="group relative flex justify-center">
-        <img src={src_large} alt="foto" />
+      <picture className="group relative flex justify-center h-full">
+        <img src={src_large} alt="foto" className="object-cover" />
         <div className="hidden absolute z-10 h-full items-center justify-center gap-5 group-hover:flex group-hover:flex-col">
           <a href={link} target="_blank" rel="noreferrer">
             <p className="text-pureWhite text-dev hover:text-secondary hover:cursor-pointer underline decoration-secondary decoration-2 underline-offset-[5px]">

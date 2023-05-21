@@ -12,7 +12,7 @@ export default function About({ section1 }) {
       <div className="flex flex-col justify-center items-center">
         <p className="text-h2 text-background py-40">under construction</p>
         <p className="text-h1 text-background py-6">SKILLS</p>
-        <section className=" mx-auto grid w-[80%] desktop:w-[40%] gap-[8%] desktop:gap-[2%] grid-rows-2 desktop:pb-10 desktop:grid-rows-3 grid-cols-5 ">
+        <section className=" mx-auto grid w-[80%] desktop:w-[40%] gap-[8%] desktop:gap-[2%] grid-rows-4 pb-10 desktop:pb-10 desktop:grid-rows-4 grid-cols-5 ">
           {skillsDB.map((skill) => {
             return (
               <div className="flex flex-col items-center py-2 text-center">
