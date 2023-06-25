@@ -55,6 +55,13 @@ export default function Projects() {
           link="https://space-tourism-six-ebon.vercel.app/"
           github_link="https://github.com/sashameniakin/space-tourism"
         />
+        <Project
+          src_large={"./images/projects/audiophile.jpg"}
+          name="AUDIOPHILE E-COMMERCE WEBSITE"
+          techstack="REACT/TS Tailwind CSS"
+          link="https://audiophile-brown.vercel.app/"
+          github_link="https://github.com/sashameniakin/audiophile"
+        />
       </div>
     </section>
   );
